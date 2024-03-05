@@ -1,6 +1,6 @@
 #Ejemplo de configuracion
 # Tasks:
-task:
+tasks:
 - name: Iniciar servidor web
   init: python -m http.server 4000
 
