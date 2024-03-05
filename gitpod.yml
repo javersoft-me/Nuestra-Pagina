@@ -1,0 +1,9 @@
+#Ejemplo de configuracion
+
+task:
+- name: Iniciar servidor web
+  init: python -m http.server 4000
+
+ports:
+   - port: 4000
+     onOpen: open-preview
